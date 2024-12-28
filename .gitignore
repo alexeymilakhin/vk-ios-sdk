@@ -1,34 +1,8 @@
-#OS noise
-profile
-[Tt]humbs.db
-*.DS_Store
-*~
-*.swp
-*.out
-*.bak*
-*.lock
-
-#Other CSM
-.hg
-.svn
-CVS
-
-#Xcode noise
-*.log
-*~.nib
-*.moved-aside
-**/*.xcuserdata/*
-xcuserdata
-
-#Project files
-[Bb]uild/
+.DS_Store
+/.build
+/Packages
+xcuserdata/
 DerivedData/
-
-#CocoaPods
-Pods
-
-#AppCode
-*/.idea/*
-.idea/*
-
-SDKBuildSteps.info
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
